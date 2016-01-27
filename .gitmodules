@@ -4,3 +4,6 @@
 [submodule "modules/blockly-games"]
 	path = modules/blockly-games
 	url = git@github.com:cdpoffline/blockly-games.git
+[submodule "modules/starthardware"]
+	path = modules/starthardware
+	url = git@github.com:cdpoffline/starthardware.git
