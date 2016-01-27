@@ -7,3 +7,6 @@
 [submodule "modules/starthardware"]
 	path = modules/starthardware
 	url = git@github.com:cdpoffline/starthardware.git
+[submodule "modules/opentechschool-python-beginners"]
+	path = modules/opentechschool-python-beginners
+	url = git@github.com:cdpoffline/opentechschool-python-beginners.git
