@@ -19,3 +19,6 @@
 [submodule "modules/scratch"]
 	path = modules/scratch
 	url = git@github.com:cdpoffline/scratch.git
+[submodule "modules/http-server"]
+	path = modules/http-server
+	url = git@github.com:cdpoffline/http-server.git
