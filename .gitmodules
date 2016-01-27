@@ -1,0 +1,3 @@
+[submodule "modules/lightbot"]
+	path = modules/lightbot
+	url = git@github.com:cdpoffline/lightbot.git
