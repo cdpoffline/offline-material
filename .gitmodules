@@ -22,3 +22,6 @@
 [submodule "modules/http-server"]
 	path = modules/http-server
 	url = git@github.com:cdpoffline/http-server.git
+[submodule "modules/overview"]
+	path = modules/overview
+	url = git@github.com:cdpoffline/overview.git
