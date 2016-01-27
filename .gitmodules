@@ -13,3 +13,9 @@
 [submodule "modules/opentechschool-javascript-beginners"]
 	path = modules/opentechschool-javascript-beginners
 	url = git@github.com:cdpoffline/opentechschool-javascript-beginners.git
+[submodule "modules/editors"]
+	path = modules/editors
+	url = git@github.com:cdpoffline/editors.git
+[submodule "modules/scratch"]
+	path = modules/scratch
+	url = git@github.com:cdpoffline/scratch.git
