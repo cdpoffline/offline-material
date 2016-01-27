@@ -1,3 +1,6 @@
 [submodule "modules/lightbot"]
 	path = modules/lightbot
 	url = git@github.com:cdpoffline/lightbot.git
+[submodule "modules/blockly-games"]
+	path = modules/blockly-games
+	url = git@github.com:cdpoffline/blockly-games.git
