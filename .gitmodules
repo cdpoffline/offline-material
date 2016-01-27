@@ -10,3 +10,6 @@
 [submodule "modules/opentechschool-python-beginners"]
 	path = modules/opentechschool-python-beginners
 	url = git@github.com:cdpoffline/opentechschool-python-beginners.git
+[submodule "modules/opentechschool-javascript-beginners"]
+	path = modules/opentechschool-javascript-beginners
+	url = git@github.com:cdpoffline/opentechschool-javascript-beginners.git
