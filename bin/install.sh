@@ -12,6 +12,4 @@ sudo apt-get -y -q install git realpath
 git submodule init
 git submodule update
 
-./modules_do.sh bin/install.sh
-./modules_do.sh link_to_web_folder.sh "$web_folder"
 
