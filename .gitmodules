@@ -25,3 +25,6 @@
 [submodule "modules/overview"]
 	path = modules/overview
 	url = git@github.com:cdpoffline/overview.git
+[submodule "modules/codecombat"]
+	path = modules/codecombat
+	url = git@github.com:cdpoffline/codecombat.git
