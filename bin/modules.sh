@@ -11,14 +11,24 @@ function activate() {
         echo "- Installing \"$module_name\" in \"`pwd`\""
         ln -s -T "$modules_folder/$module_name" "$active_link"
         cd "$active_link"
-        [ -f bin/install.sh ] && bin/install.sh
+        if [ -f bin/install.sh ]
+        then
+          if ! bin/install.sh
+          then
+            >&2 echo "- Could not install \"$module_name\"."
+            return 1
+          fi
+        fi
         echo "- Module \"$module_name\" installed and activated."
       )
     else
       mv "$inactive_link" "$active_link"
       >&2 echo "- Module \"$module_name\" activated."
     fi
-    update
+    if ! update
+    then
+      return 1
+    fi
   else
     >&2 echo "- Module \"$module_name\" already activated."
   fi
@@ -29,13 +39,21 @@ function update() {
   then
     (
       cd "$active_link"
-      [ -f bin/update.sh ] && bin/update.sh
+      if [ -f bin/update.sh ]
+      then
+        if ! bin/update.sh
+        then
+         >&2 echo "- Could not update \"$module_name\"."
+         return 1
+        fi
+      fi
       "$bin_folder/link_to_web_folder.sh" $web_folder
       >&2 echo "- Module \"$module_name\" updated."
     )
   else
     >&2 echo "- Module \"$module_name\" not updated. Maybe you should activate it. You can use"
     >&2 echo "    \"$0\" --activate \"$module_name\""
+    return 1
   fi
 }
 
@@ -44,7 +62,14 @@ function deactivate() {
   then
     (
       cd "$active_link"
-      [ -f bin/deactivate.sh ] && bin/deactivate.sh
+      if [ -f bin/deactivate.sh ]
+      then
+        if ! bin/deactivate.sh
+        then
+          >&2 echo "- Could not deactivate \"$module_name\"."
+          return 1
+        fi
+      fi
     )
     mv "$active_link" "$inactive_link"
     rm "$web_folder/$module_name"
@@ -135,10 +160,14 @@ do
   fi
 done
 
+return_code=0
+
 # do the action on the modules
 for module_name in "$@"
 do
   active_link="$active_modules/$module_name"
   inactive_link="$inactive_modules/$module_name"
-  $action
+  $action || return_code=$?
 done
+
+exit $return_code
