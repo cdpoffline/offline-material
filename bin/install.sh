@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd `dirname $0`
+cd "`dirname \"$0\"`"
 
 web_folder="../web"
 mkdir -p "$web_folder"
@@ -12,4 +12,6 @@ sudo apt-get -y -q install git realpath
 git submodule init
 git submodule update
 
+./modules_do.sh git checkout master
 
+touch installed

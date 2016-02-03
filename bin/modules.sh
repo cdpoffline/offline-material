@@ -16,6 +16,7 @@ function activate() {
           if ! bin/install.sh
           then
             >&2 echo "- Could not install \"$module_name\"."
+            rm "$active_link"
             return 1
           fi
         fi
@@ -91,6 +92,12 @@ web_folder="$bin_folder/../web"
 
 mkdir -p "$active_modules"
 mkdir -p "$inactive_modules"
+
+if ! [ -f "$bin_folder/installed" ]
+then
+  >&2 echo "ERROR: You need to run \"$bin_folder/install.sh\" first!"
+  exit 1
+fi
 
 cd $modules_folder
 
