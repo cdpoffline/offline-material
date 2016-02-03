@@ -28,3 +28,6 @@
 [submodule "modules/codecombat"]
 	path = modules/codecombat
 	url = git@github.com:cdpoffline/codecombat.git
+[submodule "modules/announce"]
+	path = modules/announce
+	url = git@github.com:cdpoffline/announce.git
