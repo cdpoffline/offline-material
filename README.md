@@ -9,7 +9,7 @@ It will download the repository and call [`install.sh`](bin/install.sh). If you 
 
 ## Usage
 
-Once installes, you can use [`modules.sh`](bin/modules.sh).
+Once installed, you can use [`modules.sh`](bin/modules.sh).
 You can activate, deactivate and update modules.
 
 - Show usage:
