@@ -14,15 +14,15 @@ You can activate, deactivate and update modules.
 
 - Show usage:
 
-        modules.sh
+        bin/modules.sh
 
 - activate [lightbot](modules/lightbot)
 
-        modules.sh -a lightbot
+        bin/modules.sh -a lightbot
 
 - update the overview to include all activated modules
 
-        modules.sh -u overview
+        bin/modules.sh -u overview
 
 ## Modules
 
