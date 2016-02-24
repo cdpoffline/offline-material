@@ -26,6 +26,8 @@ You can activate, deactivate and update modules.
 
 ## Modules
 
+You can find the available modules in the [`modules` folder].
+
 New modues can be added, `lightbot` as an example:
 
     git submodule add git@github.com:cdpoffline/lightbot.git modules/lightbot
