@@ -1,5 +1,6 @@
-# offline-material
-All the offline materials of the CoderDojo Potsdam
+# Offline Material
+
+These materials can be served in case the dojo has no internet connection.
 
 ## Installation
 
@@ -23,8 +24,8 @@ You can activate, deactivate and update modules.
 
         modules.sh -u overview
 
-## modules
+## Modules
 
-Neue module können mit git submodule add hinzugefügt werden. Hier ein Beispiel für lightbot:
+New modues can be added, `lightbot` as an example:
 
     git submodule add git@github.com:cdpoffline/lightbot.git modules/lightbot
