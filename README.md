@@ -17,7 +17,7 @@ You can activate, deactivate and update modules.
 
 - activate [lightbot](modules/lightbot)
 
-        modules.sh -a lightbot overview
+        modules.sh -a lightbot
 
 - update the overview to include all activated modules
 
