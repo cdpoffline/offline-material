@@ -26,7 +26,7 @@ You can activate, deactivate and update modules.
 
 ## Modules
 
-You can find the available modules in the [`modules` folder].
+You can find the available modules in the [`modules` folder](modules).
 
 New modues can be added, `lightbot` as an example:
 
