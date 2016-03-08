@@ -31,3 +31,12 @@
 [submodule "modules/announce"]
 	path = modules/announce
 	url = git@github.com:cdpoffline/announce.git
+[submodule "modules/files"]
+	path = modules/files
+	url = git@github.com:cdpoffline/files.git
+[submodule "modules/appinventor"]
+	path = modules/appinventor
+	url = git@github.com:cdpoffline/appinventor.git
+[submodule "modules/startup"]
+	path = modules/startup
+	url = git@github.com:cdpoffline/startup.git
