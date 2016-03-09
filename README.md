@@ -1,6 +1,6 @@
 # Offline Material
 
-These materials can be served in case the dojo has no internet connection. They can be distributed via a local website through activating the `http-server` module or copied onto USB-sticks.
+These materials can be served in case the dojo has no internet connection. They can be distributed via a local website through activating the `http-server` module or copied onto USB-sticks. [Video](https://www.youtube.com/watch?v=C_XpfdWB7Q8&feature=em-upload_owner#action=share)
 
 ## Installation
 
