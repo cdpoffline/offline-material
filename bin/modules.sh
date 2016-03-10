@@ -50,6 +50,10 @@ function update() {
       fi
       "$bin_folder/link_to_web_folder.sh" $web_folder
       >&2 echo "- Module \"$module_name\" updated."
+      if [ -f bin/startup.sh ] && ! [ -d "$active_modules/startup" ]
+      then
+        >&2 echo "- You should activate the module \"startup\" to run \"$module_name\" when the computer starts."
+      fi
     )
   else
     >&2 echo "- Module \"$module_name\" not updated. Maybe you should activate it. You can use"
