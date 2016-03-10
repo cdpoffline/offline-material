@@ -7,8 +7,8 @@ There are several [modules](./modules) available which you can use. Contribution
 ## Installation
 
 This was tested on Ubuntu 14 and 15.
-To download and install use download the file [`download_and_install.sh`](bin/download_and_install.sh) and excute it.
-It will download the repository and call [`install.sh`](bin/install.sh). If you already have downloaded it, you just need to execute [`install.sh`](bin/install.sh).
+To download and install, download the file [`download_and_install.sh`](bin/download_and_install.sh) and execute it.
+It will download the repository and call [`install.sh`](bin/install.sh). If you already have downloaded or cloned the repository, you just need to execute [`install.sh`](bin/install.sh).
 
 ## Usage
 
