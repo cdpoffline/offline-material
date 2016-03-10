@@ -1,6 +1,8 @@
 # Offline Material
 
-These materials can be served in case the dojo has no internet connection. They can be distributed via a local website through activating the `http-server` module or copied onto USB-sticks. [Video](https://www.youtube.com/watch?v=C_XpfdWB7Q8&feature=em-upload_owner#action=share)
+These materials can be served in case the dojo has no or bad internet connection. They can be distributed via a local website through activating the [`http-server`](https://github.com/cdpoffline/http-server) module or copied onto USB-sticks. You can watch a small [video](https://www.youtube.com/watch?v=C_XpfdWB7Q8&feature=em-upload_owner#action=share) about it or see the [`overview`](https://github.com/cdpoffline/overview/#overview) module for more content.
+
+There are several [modules](./modules) available which you can use. Contributions welcome.
 
 ## Installation
 
@@ -17,7 +19,7 @@ You can activate, deactivate and update modules.
 
         bin/modules.sh
 
-- activate [lightbot](modules/lightbot)
+- activate one of the [modules](./modules) [`lightbot`](https://github.com/cdpoffline/lightbot/)
 
         bin/modules.sh -a lightbot
 
@@ -25,10 +27,15 @@ You can activate, deactivate and update modules.
 
         bin/modules.sh -u overview
 
-## Modules
+## Developers
 
 You can find the available modules in the [`modules` folder](modules).
 
-New modues can be added, `lightbot` as an example:
+New modules can be added, `lightbot` as an example:
 
     git submodule add git@github.com:cdpoffline/lightbot.git modules/lightbot
+
+You can use [bin/modules_do.sh](bin/modules_do.sh) to perform actions on all modules.
+
+    bin/modules_do.sh git pull
+    bin/modules_do.sh git status
