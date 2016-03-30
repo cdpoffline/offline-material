@@ -40,3 +40,6 @@
 [submodule "modules/startup"]
 	path = modules/startup
 	url = git@github.com:cdpoffline/startup.git
+[submodule "modules/jupyter-server"]
+	path = modules/jupyter-server
+	url = git@github.com:cdpoffline/jupyter-server.git
