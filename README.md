@@ -1,6 +1,6 @@
 # Offline Material
 
-These materials can be served in case the dojo has no or bad internet connection. They can be distributed via a local website through activating the [`http-server`](https://github.com/cdpoffline/http-server) module or copied onto USB-sticks. You can watch a small [video](https://www.youtube.com/watch?v=C_XpfdWB7Q8&feature=em-upload_owner#action=share) about it or see the [`overview`](https://github.com/cdpoffline/overview/#overview) module for more content.
+These materials can be served in case the dojo has no or bad internet connection. They can be distributed via a local website through activating the [`http-server`](https://github.com/cdpoffline/http-server) module or copied onto USB-sticks. You can watch a small [video](https://www.youtube.com/watch?v=C_XpfdWB7Q8&feature=em-upload_owner#action=share) about it, have a look at an [example setup](https://cdpoffline.github.io/try-it), or see the [`overview`](https://github.com/cdpoffline/overview/#overview) module for more content.
 
 There are several [modules](./modules) available which you can use. Contributions welcome.
 
