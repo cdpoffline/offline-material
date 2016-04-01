@@ -1,48 +1,48 @@
 [submodule "modules/lightbot"]
 	path = modules/lightbot
-	url = git@github.com:cdpoffline/lightbot.git
+	url = https://github.com/cdpoffline/lightbot.git
 [submodule "modules/blockly-games"]
 	path = modules/blockly-games
-	url = git@github.com:cdpoffline/blockly-games.git
+	url = https://github.com/cdpoffline/blockly-games.git
 [submodule "modules/starthardware"]
 	path = modules/starthardware
-	url = git@github.com:cdpoffline/starthardware.git
+	url = https://github.com/cdpoffline/starthardware.git
 [submodule "modules/opentechschool-python-beginners"]
 	path = modules/opentechschool-python-beginners
-	url = git@github.com:cdpoffline/opentechschool-python-beginners.git
+	url = https://github.com/cdpoffline/opentechschool-python-beginners.git
 [submodule "modules/opentechschool-javascript-beginners"]
 	path = modules/opentechschool-javascript-beginners
-	url = git@github.com:cdpoffline/opentechschool-javascript-beginners.git
+	url = https://github.com/cdpoffline/opentechschool-javascript-beginners.git
 [submodule "modules/editors"]
 	path = modules/editors
-	url = git@github.com:cdpoffline/editors.git
+	url = https://github.com/cdpoffline/editors.git
 [submodule "modules/scratch"]
 	path = modules/scratch
-	url = git@github.com:cdpoffline/scratch.git
+	url = https://github.com/cdpoffline/scratch.git
 [submodule "modules/http-server"]
 	path = modules/http-server
-	url = git@github.com:cdpoffline/http-server.git
+	url = https://github.com/cdpoffline/http-server.git
 [submodule "modules/overview"]
 	path = modules/overview
-	url = git@github.com:cdpoffline/overview.git
+	url = https://github.com/cdpoffline/overview.git
 [submodule "modules/codecombat"]
 	path = modules/codecombat
-	url = git@github.com:cdpoffline/codecombat.git
+	url = https://github.com/cdpoffline/codecombat.git
 [submodule "modules/announce"]
 	path = modules/announce
-	url = git@github.com:cdpoffline/announce.git
+	url = https://github.com/cdpoffline/announce.git
 [submodule "modules/files"]
 	path = modules/files
-	url = git@github.com:cdpoffline/files.git
+	url = https://github.com/cdpoffline/files.git
 [submodule "modules/appinventor"]
 	path = modules/appinventor
-	url = git@github.com:cdpoffline/appinventor.git
+	url = https://github.com/cdpoffline/appinventor.git
 [submodule "modules/startup"]
 	path = modules/startup
-	url = git@github.com:cdpoffline/startup.git
+	url = https://github.com/cdpoffline/startup.git
 [submodule "modules/jupyter-server"]
 	path = modules/jupyter-server
-	url = git@github.com:cdpoffline/jupyter-server.git
+	url = https://github.com/cdpoffline/jupyter-server.git
 [submodule "modules/snap"]
 	path = modules/snap
-	url = git@github.com:cdpoffline/snap.git
+	url = https://github.com/cdpoffline/snap.git
