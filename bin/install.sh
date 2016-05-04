@@ -11,6 +11,8 @@ mkdir -p "$web_folder"
 web_folder="`realpath \"$web_folder\"`"
 echo "- web folder: $web_folder"
 
+cd ..
+
 git submodule init
 git submodule update
 
