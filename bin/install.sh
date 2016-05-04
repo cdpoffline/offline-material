@@ -16,6 +16,7 @@ cd ..
 git submodule init
 git submodule update
 
+cd bin
 ./modules_do.sh git checkout master
 
 touch installed
