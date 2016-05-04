@@ -1,6 +1,13 @@
 #!/bin/bash
 
-location="`dirname $0`"
+
+if ! type realpath 1>>/dev/null 2>>/dev/null
+then
+  >&2 echo "'realpath' is not installed. You can install it by typing 'sudo apt-get install realpath'."
+  exit 1
+fi
+
+location="`dirname \"$0\"`"
 location="`realpath \"$location\"`"
 
 modules="$location/../modules"
