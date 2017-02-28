@@ -21,4 +21,6 @@ cd bin
 
 ./modules_do.sh bash -c "git remote add ssh_github \"\`git config --get remote.origin.url | sed -r 's/https?:\/\/github\.com\/([^\/]+)\/([^\/]+)\.git/git@github.com:\1\/\2.git/g'\`\""
 
+git remote add ssh_github git@github.com:cdpoffline/offline-material.git
+
 touch installed
